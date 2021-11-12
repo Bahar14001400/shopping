@@ -1,0 +1,78 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\a\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add sass
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\a\AppData\Local\Microsoft\WindowsApps;C:\Users\a\AppData\Roaming\npm;E:\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:211:20)
+
+npm manifest: 
+  {
+    "name": "shopping",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.14.1",
+      "@testing-library/react": "^11.2.7",
+      "@testing-library/user-event": "^12.8.3",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "4.0.3",
+      "typescript": "^4.3.4",
+      "web-vitals": "^0.2.4",
+      "workbox-background-sync": "^5.1.4",
+      "workbox-broadcast-update": "^5.1.4",
+      "workbox-cacheable-response": "^5.1.4",
+      "workbox-core": "^5.1.4",
+      "workbox-expiration": "^5.1.4",
+      "workbox-google-analytics": "^5.1.4",
+      "workbox-navigation-preload": "^5.1.4",
+      "workbox-precaching": "^5.1.4",
+      "workbox-range-requests": "^5.1.4",
+      "workbox-routing": "^5.1.4",
+      "workbox-strategies": "^5.1.4",
+      "workbox-streams": "^5.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
